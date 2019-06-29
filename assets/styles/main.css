@@ -1,0 +1,143 @@
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }
+
+  .space
+  {
+      height: 100vh;
+  }
+
+  .basketball-primary-text
+  {
+    color: #A21310 !important;
+  }
+
+  .basketball-primary
+  {
+      background: #A21310 !important;
+  }
+  .basketball-secondary
+  {
+      background : #343a40 !important;
+  }
+
+  .basketball-light
+  {
+      background : #eee !important;
+  }
+
+  .basketball-bg-gray
+  {
+    /* background : url('https://2ecf6d09fbec43fe2169-3c8557d7c5356e3812e95d0bf1a503b3.ssl.cf1.rackcdn.com/REID_ROLLS_STREETBALL_06.jpg') no-repeat !important; */
+    background :#000 url("~assets/bg/directly-above-view-of-ball-falling-through-hoop-in-the-dark-basketball-court-in-slow-motion_bqevxjl3i_thumbnail-full01.png") center/cover no-repeat!important;
+    /* background-position: center;
+    background-size : auto; */
+  }
+
+  .basketball-bg-gradient
+  {
+    /* https://www.xmple.com/wallpaper/linear-black-gradient-green-1920x1080-c2-103719-030604-a-165-f-14.svg */
+    background :#000 url("~assets/bg/bg-gradient.jpg") center/cover no-repeat !important;
+  }
+  .border-bottom-primary
+  {
+      border-bottom : 3px solid #A21310;
+  }
+  
+  body
+  {
+      font-family: 'Roboto', sans-serif;
+      background: #ddd !important;
+  }
+
+  h1,h2,h3,h4,h6
+  {
+    /* font-family: 'Rubik Mono One', sans-serif; */
+  }
+
+  h5
+  {
+    font-family: 'Questrial', sans-serif;
+  }
+
+  .navbar
+  {
+    font-family: 'Acme', sans-serif;
+  }
+
+  .services-grid
+  {
+      background:#D60B10;
+      border : 7px solid #A21310;
+      color:#fff;
+  }
+
+  .services-grid h4
+  {
+      color:#fff;
+  }
+
+  .services-grid p
+  {
+      color:#fff;
+  }
+
+  .nav-link a.nuxt-link-active
+  {
+    border-bottom: 2px solid #00ad5f;
+  }
+  
+  .clr-two
+  {
+    background : rgba(255, 255, 255, 0.3);
+    /* background : #A21310; */
+    
+  }
+
+  #toTop {
+    display: none;
+    text-decoration: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 2%;
+    overflow: hidden;
+    z-index: 999;
+    width: 35px;
+    height: 35px;
+    border: none;
+    text-indent: 100%;
+    background: url(../images/move-up.png) no-repeat 0px 0px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+#toTopHover {
+  width: 35px;
+  height: 35px;
+  display: block;
+  overflow: hidden;
+  float: right;
+  opacity: 0;
+  -moz-opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+
+.banner-bot
+{
+  background: rgba(255, 255, 255, 0.167);
+  padding: 3em;
+  max-width: 550px;
+  box-shadow: 7px 7px 10px 0 rgba(56, 56, 56, 0.21);
+}
+
+.banner-bottom-w3layouts
+{
+  background:#000;
+}
